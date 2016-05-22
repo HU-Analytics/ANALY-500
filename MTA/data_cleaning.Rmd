@@ -1,0 +1,30 @@
+---
+title: "data_cleaning"
+date: "May 22, 2016"
+output: html_document
+---
+# Load data
+```{r}
+
+filenames <- list.files("data/", pattern="*.csv", full.names= TRUE) 
+for (i in 1:length(filenames)){
+  # extract file name
+  name <- filenames[i]
+  name <- sub("*.csv", "", name)
+  name <- sub(".*//", "", name)
+  
+  # read data
+  assign(name, read.csv(filenames[i], stringsAsFactors = F))
+}
+```
+
+
+# 
+```{r}
+# check the Operations Dates within dataset
+unique(substr(stop_times$trip_id, 1, 12))
+
+# data scheme
+str(stop_times)
+```
+
