@@ -1,7 +1,7 @@
 ---
 title: "data_cleaning"
+output: word_document
 date: "May 22, 2016"
-output: html_document
 ---
 # Load data
 ```{r}
