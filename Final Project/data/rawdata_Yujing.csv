@@ -1,0 +1,70 @@
+first_name,last_name,gender,department_program_name,current_university,year_get_phd,year_get_bs,phd_university,bs_university,num_articles,num_nature,num_cell,num_science,link_of_his_webpage
+Howard,Berg,Male,Molecular and Cellular Biology,Harvard University,1964,1956,Harvard University ,California Institute of Technology ,170,20,5,4,https://www.mcb.harvard.edu/mcb/faculty/profile/howard-c-berg/
+Daniel,Branton,Male,Molecular and Cellular Biology,Harvard University,1961,1954,"University of California, Berkeley ",Cornell University,156,9,4,8,https://www.mcb.harvard.edu/mcb/faculty/profile/daniel-branton/
+Cox,David,Male,Molecular and Cellular Biology,Harvard University,2007,2000,Massachusetts Institute of Technology ,Harvard University,72,0,0,0,https://www.mcb.harvard.edu/mcb/faculty/profile/david-cox/
+Denic,Vlad,Male,Molecular and Cellular Biology,Harvard University,N/A,N/A,N/A,N/A,,,,,
+Dowling,John,Male,Molecular and Cellular Biology,Harvard University,1960,N/A,Harvard University ,Harvard University ,237,13,0,12,https://www.mcb.harvard.edu/mcb/faculty/profile/john-e-dowling/
+Dulac,Catherine,Female,Molecular and Cellular Biology,Harvard University,1991,N/A,University of Paris,"Ecole Normale Sup_rieure, Paris",75,4,10,6,https://www.mcb.harvard.edu/mcb/faculty/profile/catherine-dulac/
+Eddy,Sean,Male,Molecular and Cellular Biology,Harvard University,1991,1986,University of Colorado , California Institute of Technology,105,6,1,4,https://www.mcb.harvard.edu/mcb/faculty/profile/sean-eddy/
+Erikson,Raymond,Male,Molecular and Cellular Biology,Harvard University,N/A,N/A,N/A,N/A,192,6,4,3,https://www.mcb.harvard.edu/mcb/faculty/profile/raymond-l-erikson/
+Extavour,Cassandra,Female,Molecular and Cellular Biology,Harvard University,2000,1995,Universidad Auto_noma de Madrid ,University of Toronto ,43,0,0,0,https://www.mcb.harvard.edu/mcb/faculty/profile/cassandra-g-extavour/
+Gaudet,Rachelle,Female,Molecular and Cellular Biology,Harvard University,1998,1993,Yale University ,Universite de Montreal ,91,2,2,1,https://www.mcb.harvard.edu/mcb/faculty/profile/rachelle-gaudet/
+Guidotti,Guido,Male,Molecular and Cellular Biology,Harvard University,N/A,N/A,N/A,N/A,226,2,0,1,https://www.mcb.harvard.edu/mcb/faculty/profile/guido-guidotti/
+Hensch,Takao,Male,Molecular and Cellular Biology,Harvard University,1996,N/A,"University of California, San Francisco",Harvard University,107,3,3,6,https://www.mcb.harvard.edu/mcb/faculty/profile/takao-hensch/
+Hoekstra,Hopi,Female,Molecular and Cellular Biology,Harvard University,2000,N/A, the University of Washington,UC Berkeley,65,4,1,5,https://www.mcb.harvard.edu/mcb/faculty/profile/hopi-hoekstra/
+Hunter,Craig,Male,Molecular and Cellular Biology,Harvard University,1990,N/A,University of Colorado,N/A,73,2,3,3,https://www.mcb.harvard.edu/mcb/faculty/profile/craig-p-hunter/
+Kahne,Daniel,Male,Molecular and Cellular Biology,Harvard University,1988,1981,Columbia University,Cornell University,119,0,3,8,https://www.mcb.harvard.edu/mcb/faculty/profile/daniel-kahne/
+Kleckner,Nancy,Female,Molecular and Cellular Biology,Harvard University,1973,1968,Massachusetts Institute of Technology ,Harvard University,198,2,45,0,https://www.mcb.harvard.edu/mcb/faculty/profile/nancy-kleckner/
+Kunes,Sam,Male,Molecular and Cellular Biology,Harvard University,1988,1981,Massachusetts Institute of Technology ,University of Oregon,30,0,5,0,https://www.mcb.harvard.edu/mcb/faculty/profile/sam-kunes/
+Lichtman,Jeff,Male,Molecular and Cellular Biology,Harvard University,1980,1973,Washington University,Bowdoin,149,9,4,9,https://www.mcb.harvard.edu/mcb/faculty/profile/jeff-lichtman/
+Losick,Richard,Male,Molecular and Cellular Biology,Harvard University,N/A,N/A,Massachusetts Institute of Technology,Princeton University,312,11,23,24,https://www.mcb.harvard.edu/mcb/faculty/profile/richard-m-losick/
+Lue,Robert,Male,Molecular and Cellular Biology,Harvard University,1988,1980,Harvard University ,"St. George's College, Kingston, Jamaica",4,0,0,0,https://www.mcb.harvard.edu/mcb/faculty/profile/robert-a-lue/
+Mango,Susan,Female,Molecular and Cellular Biology,Harvard University,1990,1983,Princeton University,Harvard University ,43,0,1,6,https://www.mcb.harvard.edu/mcb/faculty/profile/susan-mango/
+Meselson,Matthew,Male,Molecular and Cellular Biology,Harvard University,1957,1951,California Institute of Technology,University of Chicago,99,4,4,9,https://www.mcb.harvard.edu/mcb/faculty/profile/matthew-s-meselson/
+Murray,Andrew,Male,Molecular and Cellular Biology,Harvard University,1981,1974,Harvard University ,Cambridge University,306,22,9,18,https://www.mcb.harvard.edu/mcb/faculty/profile/andrew-w-murray/
+Murthy,Venkatesh,Male,Molecular and Cellular Biology,Harvard University,1994,1986,University of Washington,N/A,77,3,0,0,http://www.mcb.harvard.edu/mcb/faculty/profile/venkatesh-n-murthy/
+Nelson,David,Male,Molecular and Cellular Biology,Harvard University,1975,1972,Cornell University,Cornell University,698,5,0,10,https://www.mcb.harvard.edu/mcb/faculty/profile/david-r-nelson/
+O'Shea,Erin,Female,Molecular and Cellular Biology,Harvard University,1992,1988,Massachusetts Institute of Technology,Smith College,83,6,3,17,https://www.mcb.harvard.edu/mcb/faculty/profile/erin-k-oshea/
+Ramanathan,Sharad,Male,Molecular and Cellular Biology,Harvard University,2000,1992,Harvard University , Indian Institute of Technology,17,1,2,1,https://www.mcb.harvard.edu/mcb/faculty/profile/sharad-ramanathan/
+Sanes,Joshua,Male,Molecular and Cellular Biology,Harvard University,1976,1970,Harvard University ,Yale University,319,23,15,8,https://www.mcb.harvard.edu/mcb/faculty/profile/joshua-r-sanes/
+Uchida,Nao,Male,Molecular and Cellular Biology,Harvard University,1997,N/A,N/A,N/A,41,0,0,0,https://www.mcb.harvard.edu/mcb/faculty/profile/nao-uchida/
+Amon,Angelika,Female,Department of Biology,Massachusetts Institute of Technology,1993,1988,University of Vienna,University of Vienna,156,5,11,8,https://biology.mit.edu/people/angelika_amon#selected_publications
+Baker,Tania,Female,Department of Biology,Massachusetts Institute of Technology,1988,1983,Stanford University,University of Wisconsin-Madison,129,2,8,2,https://biology.mit.edu/people/tania_baker
+Bartel,David,Male,Department of Biology,Massachusetts Institute of Technology,1993,1982,Harvard University ,Goshen College,149,17,16,11,https://biology.mit.edu/people/david_bartel
+Bell,Stephen,Male,Department of Biology,Massachusetts Institute of Technology,1990,N/A,"University of California, Berkeley",Northwestern University,109,2,5,0,https://biology.mit.edu/people/stephen_bell
+Burge,Chris,Male,Department of Biology,Massachusetts Institute of Technology,1997,1990,Stanford University,Stanford University,103,4,11,5,https://biology.mit.edu/people/chris_burge
+Chen,Jianzhu,Male,Department of Biology,Massachusetts Institute of Technology,1990,N/A,Stanford University,Wuhan University,128,1,3,1,https://biology.mit.edu/people/jianzhu_chen
+Constantine-Paton,Martha,Female,Department of Biology,Massachusetts Institute of Technology,1976,N/A,Cornell University,N/A,106,1,0,3,https://biology.mit.edu/people/martha_constantine_paton
+Drennan,Catherine,Female,Department of Biology,Massachusetts Institute of Technology,1995,1985,University of Michigan,Vassar College,124,5,0,6,https://biology.mit.edu/people/catherine_drennan
+Fink,Gerald,Male,Department of Biology,Massachusetts Institute of Technology,1965,,Yale University ,,771,12,29,25,https://biology.mit.edu/people/gerald_fink
+Gertler,Frank,Male,Department of Biology,Massachusetts Institute of Technology,1992,N/A,"University of Wisconsin, Madison",N/A,117,1,7,1,https://biology.mit.edu/people/frank_gertler
+Grossman,Alan,Male,Department of Biology,Massachusetts Institute of Technology,1984,1979,"University of Wisconsin, Madison",Brown University,139,1,10,1,https://biology.mit.edu/people/alan_grossman
+Guarente,Leonard,Male,Department of Biology,Massachusetts Institute of Technology,1978,1974,Harvard University ,Massachusetts Institute of Technology ,271,15,39,11,https://biology.mit.edu/people/leonard_guarente
+horvitz,Robert,Male,Department of Biology,Massachusetts Institute of Technology,1974,1970,Harvard University ,Harvard University,255,26,27,9,https://biology.mit.edu/people/h_robert_horvitz
+Houseman,David,Male,Department of Biology,Massachusetts Institute of Technology,1971,1966,Brandeis University,Brandeis University,212,9,5,6,https://biology.mit.edu/people/david_housman
+Imperiali,Barbara,Female,Department of Biology,Massachusetts Institute of Technology,1983,1979,Massachusetts Institute of Technology,University College London ,154,0,0,1,https://biology.mit.edu/people/barbara_imperiali
+Jacks,Tyler,Male,Department of Biology,Massachusetts Institute of Technology,1988,1983,"University of California, San Francisco",Harvard College,352,24,25,8,https://biology.mit.edu/people/tyler_jacks
+Jaenisch,Rudolf,Male,Department of Biology,Massachusetts Institute of Technology,1967,1963,University of Munich,University of Munich,539,48,48,21,https://biology.mit.edu/people/rudolf_jaenisch
+Keating,Amy,Female,Department of Biology,Massachusetts Institute of Technology,1998,1992,"University of California, Los Angeles",Harvard University,60,0,0,3,https://biology.mit.edu/people/amy_keating
+King,Jonathan,Male,Department of Biology,Massachusetts Institute of Technology,1968,1962,California Institute of Technology,Yale University,479,1,0,5,https://biology.mit.edu/people/jonathan_king
+Krieger ,Monty,Male,Department of Biology,Massachusetts Institute of Technology,1975,1971,California Institute of Technology,Tulane University,272,6,2,6,https://biology.mit.edu/people/monty_krieger
+Lander,Eric,Male,Department of Biology,Massachusetts Institute of Technology,1981,1978,Oxford University,Princeton University,449,74,36,42,https://biology.mit.edu/people/eric_lander
+Lees,Jacqueline,Female,Department of Biology,Massachusetts Institute of Technology,1990,N/A,University of London,N/A,97,1,2,0,https://biology.mit.edu/people/jacqueline_lees
+Lindquist,Susan,Female,Department of Biology,Massachusetts Institute of Technology,1976,1971,Harvard University ,"University of Illinois, Champaign-Urbana ",386,13,25,25,https://biology.mit.edu/people/susan_lindquist
+Abel,Edwin,Male,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1993,1983,Harvard University,Swarthmore College,171,2,0,3,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p94335
+Alwine,James,Male,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1974,1969,Pennsylvania State University,Elizabethtown College,60,0,0,0,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p20106
+Argon,Yair,Male,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1980,1974,Harvard Medical School,The Hebrew University Medical School,71,1,0,0,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p166844
+Bashaw,Greg ,Male,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1997,1990,Stanford University,Brown University,37,1,3,1,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p19610
+Burkhardt,Janis,Female,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1989,1983,Duke University,Washington University,150,1,0,1,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p1991848
+Murphy,Maureen,Female,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1993,1987,University of Pennsylvania,Rutgers University,270,1,0,4,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p6400708
+Ostap,Michael ,Male,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1993,1988,University of Minnesota,Illinois State University,65,0,0,1,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p10706
+Daniell,Henry,Male,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1980,1969,Madurai Kamaraj University,University of Madras,240,0,0,0,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p8606917
+Dominguez,Roberto,Male,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1996,1987,Pasteur Institute and Paris-Sud University,Odessa State University ,68,1,0,3,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p8134310
+Fraser,Nigel,Male,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1975,1968,University of Glasgow,Robert Gordon's Institute of Technology,150,4,0,0,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p9686
+George,Donna,Female,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1974,1969,Rutgers University,Wilkes College,34,0,0,0,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p10576
+Weiss,Susan,Female,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1975,1971,Harvard University,Brandeis University,149,0,0,2,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p11346
+Kashina,Anna,Female,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1993,1986,Moscow Institute for Protein Research,Moscow State University,31,0,0,2,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p4638831
+Wherry,John,Male,Cell & Molecular Biology Graduate Group,University of Pennsylvania,2000,1993,Thomas Jefferson University,Pennsylvania State University,161,5,3,5,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p5463426
+Janmey,Paul,Male,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1982,1976,University of Wisconsin,Oberlin University,284,6,3,3,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p12968
+Roos,David,Male,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1984,1979,Rockefeller University,Harvard College,188,6,0,5,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p3546247
+Robertson,Erle,Male,Cell & Molecular Biology Graduate Group,University of Pennsylvania,1992,1987,Wayne State University,Howard University,151,0,0,0,http://www.med.upenn.edu/apps/faculty/index.php/g20000320/p26965

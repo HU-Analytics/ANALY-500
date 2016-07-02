@@ -1,0 +1,25 @@
+---
+title: "Impact of Age On Academic Achievement"
+author: "Yujing Fang, Chang Lian, Zhengdao Song"
+date: "July 1, 2016"
+output: html_document
+---
+Load libraries
+```{r}
+library(dplyr)
+```
+
+
+Load raw data
+```{r}
+# Read all raw data
+path <- "data"
+files = list.files(path = path, pattern="*.csv")
+for (i in 1:length(files)){
+  assign(files[i], read.csv(paste("data", files[i], sep = "/"), stringsAsFactors = F))
+} 
+
+# Merge all raw data
+rawdata <- rbind(rawdata_Chang.csv, rawdata_Yujing.csv, rawdata_zhengdao.csv)
+```
+
