@@ -2,7 +2,7 @@
 title: "Impact of Age On Academic Achievement"
 author: "Yujing Fang, Chang Lian, Zhengdao Song"
 date: "July 1, 2016"
-output: html_document
+output: word_document
 ---
 
 rm(list=ls(all=TRUE))
