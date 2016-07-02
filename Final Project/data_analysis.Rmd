@@ -1,0 +1,143 @@
+---
+title: "Impact of Age On Academic Achievement"
+author: "Yujing Fang, Chang Lian, Zhengdao Song"
+date: "July 1, 2016"
+output: html_document
+---
+
+rm(list=ls(all=TRUE))
+# Load libraries
+```{r}
+library(dplyr)
+```
+
+# Load raw data
+```{r}
+# Read all raw data
+data <- read.csv("result/reshaped_data.csv", stringsAsFactors = F)
+```
+
+# Exploratory Analysis
+```{r}
+# numbers of variables and numbers of observations
+dim(data)
+
+# structure of variables
+str(data)
+
+# Descriptive statistics
+summary(data)
+
+# Histogram
+hist(data$current_age)
+plot(density(data$current_age)) #kernel density estimate
+
+hist(data$phd_age)
+plot(density(data$phd_age))
+
+
+hist(data$num_articles)
+plot(density(data$num_articles))
+
+hist(data$num_peered_reviewed_articles)
+plot(density(data$num_peered_reviewed_articles))
+
+hist(data$percent_peered_reviewed_articles)
+
+# Create scatterplots for numeric metircs
+data_numeric <- select(data, current_age, phd_age, current_university_rank, current_university_tier,num_articles, num_peered_reviewed_articles, percent_peered_reviewed_articles )
+
+pairs(data_numeric,panel=panel.smooth)
+```
+
+# Percentage of Peers Reviewed Articles ~ Ages
+Compared "centers" and "spreads" of Percentage of PR Articles across Ph.D Ages
+```{r}
+boxplot(percent_peered_reviewed_articles ~ phd_age, data=data, main="Boxplots of Percentage of Peers Reviewed Articles Across Ph.D Ages", xlab="Ph.D Age", ylab="Percentage of PR Articles")
+```
+
+Compared "centers" and "spreads" of Percentage of PR Articles across Current Ages
+```{r}
+boxplot(percent_peered_reviewed_articles ~ current_age, data=data, main="Boxplots of Percentage of Peers Reviewed Articles Across Current Ages", xlab="Current Age", ylab="Percentage of PR Articles")
+```
+
+# Percentage of Peers Reviewed Articles ~ Universities
+Compared "centers" and "spreads" of Percentage of PR Articles across University Ranks
+```{r}
+boxplot(percent_peered_reviewed_articles ~ current_university_rank, data=data, main="Boxplots of Percentage of Peers Reviewed Articles Across University Ranks", xlab="University Rank", ylab="Percentage of PR Articles")
+```
+
+Compared "centers" and "spreads" of Percentage of PR Articles across University Tiers
+```{r}
+boxplot(percent_peered_reviewed_articles ~ current_university_tier, data=data, main="Boxplots of Percentage of Peers Reviewed Articles Across University Tiers", xlab="University Tier", ylab="Percentage of PR Articles")
+```
+
+# Linear Regression for num_articles
+num_articles ~ current_age, phd_age, current_university_ranks
+```{r}
+rg_articles <- lm(num_articles ~ current_age + phd_age + current_university_rank, data = data)
+summary(rg_articles)
+```
+
+# Linear Regression for log(num_articles)
+log(num_articles) ~ current_age, phd_age, current_university_ranks
+```{r}
+# Create a replica of 'data' data frame for adding log(num_article)
+data_log_num_articles <- data
+data_log_num_articles$log_num_articles <- log(data_log_num_articles$num_articles)
+
+# Drop -Inf
+data_log_num_articles <- subset(data_log_num_articles, log_num_articles!= "-Inf")
+
+# Run regression
+rg_articles_log <- lm(log_num_articles ~ current_age + phd_age + current_university_rank, data = data_log_num_articles)
+summary(rg_articles_log)
+```
+
+
+# Linear Regression for num_peered_reviewed_articles
+num_peered_reviewed_articles ~ current_age, phd_age, current_university_ranks
+```{r}
+rg_peers_articles <- lm(num_peered_reviewed_articles ~ current_age + phd_age + current_university_rank, data = data)
+summary(rg_peers_articles)
+```
+
+# Linear Regression for log(num_peered_reviewed_articles)
+log(num_peered_reviewed_articles) ~ current_age, phd_age, current_university_ranks
+```{r}
+# Create a replica of 'data' data frame for adding log(num_article)
+data_log_peers_articles <- data
+data_log_peers_articles$log_num_peered_reviewed_articles <- log(data_log_peers_articles$num_peered_reviewed_articles)
+
+# Drop -Inf
+data_log_peers_articles <- subset(data_log_peers_articles, log_num_peered_reviewed_articles!= "-Inf")
+
+# Run regression
+rg_peers_articles_log <- lm(log_num_peered_reviewed_articles ~ current_age + phd_age + current_university_rank, data = data_log_peers_articles)
+summary(rg_peers_articles_log)
+```
+
+# Linear Regression for percent_peered_reviewed_articles
+percent_peered_reviewed_articles ~ current_age, phd_age, current_university_ranks
+```{r}
+rg_percent_peers <- lm(percent_peered_reviewed_articles ~ current_age + phd_age + current_university_rank, data = data)
+summary(rg_percent_peers)
+```
+
+# Linear Regression for log(percent_peered_reviewed_articles)
+log(percent_peered_reviewed_articles) ~ current_age, phd_age, current_university_ranks
+```{r}
+# Create a replica of 'data' data frame for adding log(num_article)
+data_log_percent_peers <- data
+data_log_percent_peers$log_percent_peered_reviewed_articles <- log(data_log_percent_peers$percent_peered_reviewed_articles)
+
+# Drop -Inf & NaN
+data_log_percent_peers <- subset(data_log_percent_peers, log_percent_peered_reviewed_articles!= "-Inf")
+data_log_percent_peers <- subset(data_log_percent_peers, log_percent_peered_reviewed_articles!= "NaN")
+
+# Run regression
+rg_percent_peers_log <- lm(log_percent_peered_reviewed_articles ~ current_age + phd_age + current_university_rank, data = data_log_percent_peers)
+summary(rg_percent_peers_log)
+```
+
+

@@ -87,6 +87,10 @@ rawdata$num_cell <- as.numeric(rawdata$num_cell)
 rawdata$num_science <- as.numeric(rawdata$num_science)
 rawdata <- mutate(rawdata, num_peered_reviewed_articles = num_nature + num_cell + num_science)
 
+# Create percent_peered_reviewed_articles
+rawdata <- mutate(rawdata, percent_peered_reviewed_articles = num_peered_reviewed_articles/num_articles)
+rawdata$percent_peered_reviewed_articles <- format(rawdata$percent_peered_reviewed_articles, digits = 2)
+
 # Create current_age, phd_age
 undergrad_age <- 23 #assume the average age when people recieved their undergrad degrees is 23
 rawdata$year_get_bs <- as.numeric(rawdata$year_get_bs)
@@ -97,11 +101,12 @@ rawdata <- mutate(rawdata, current_age = 2016 - year_get_bs + undergrad_age, phd
 ranking <- read.csv("data/schools_ranking.csv", stringsAsFactors = F)
 rawdata <- left_join(rawdata, ranking)
 
+
 # Drop department_program_name, link_of_his_webpage
 rawdata <- select(rawdata, -department_program_name, -link_of_his_webpage)
-
+colnames(rawdata)
 # Rearrange columns order
-rawdata <- select(rawdata, 1, 2, 3, 14, 15, 4, 16, 17, 8,7,6,5, 9,13, everything())
+rawdata <- select(rawdata, 1, 2, 3, 15, 16, 4, 17, 18, 8,7,6, 5, 9, 13,14, everything())
 ```
 
 #Export result
