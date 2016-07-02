@@ -6,14 +6,14 @@ output: html_document
 ---
 
 rm(list=ls(all=TRUE))
-Load libraries
+#Load libraries
 ```{r}
 library(dplyr)
 library(plyr)
 library(DataCombine)
 ```
 
-Load raw data
+#Load raw data
 ```{r}
 # Read all raw data
 path <- "data"
@@ -26,8 +26,8 @@ for (i in 1:length(files)){
 rawdata <- rbind(rawdata_Chang.csv, rawdata_Yujing.csv, rawdata_zhengdao.csv)
 ```
 
-Clean Data
-+Remove records with NA 
+#Clean Data
+Remove records with NA 
 ```{r}
 # Replace N/A with NA before removing
 rawdata[rawdata == "N/A"] <- NA
@@ -39,7 +39,7 @@ rawdata[rawdata == ""] <- NA
 rawdata <- na.omit(rawdata)
 ```
 
-+Remove capitalization, leading/trailing space in all text columns
+Remove capitalization, leading/trailing space in all text columns
 ```{r}
 for (i in 1:ncol(rawdata)){
   rawdata[,i] <- tolower(rawdata[,i])
@@ -47,13 +47,13 @@ for (i in 1:ncol(rawdata)){
 }
 ```
 
-+Unify the way of coding 'gender'
+Unify the way of coding 'gender'
 ```{r}
 # Unify gender coding
 rawdata$gender <- revalue(rawdata$gender, c(w = "female", m = "male"))
 ```
 
-+Unify the naming of universities
+Unify the naming of universities
 ```{r}
 # Identify distinct names
 temp1 <- data.frame(rawdata$current_university)
@@ -78,7 +78,7 @@ rawdata <- FindReplace(data = rawdata, Var = "bs_university", replaceData = Repl
                      from = "from", to = "to", exact = FALSE)
 ```
 
-Drop and create columns for analysis
+#Drop and create columns for analysis
 ```{r}
 # Create num_peered_reviewed_articles by adding up the num_nature, num_cell, num_science 
 rawdata$num_articles <- as.numeric(rawdata$num_articles)
@@ -104,7 +104,7 @@ rawdata <- select(rawdata, -department_program_name, -link_of_his_webpage)
 rawdata <- select(rawdata, 1, 2, 3, 14, 15, 4, 16, 17, 8,7,6,5, 9,13, everything())
 ```
 
-Export result
+#Export result
 ```{r}
 write.csv(rawdata, "result/reshaped_data.csv", row.names = F)
 ```
