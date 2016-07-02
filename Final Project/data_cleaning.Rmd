@@ -4,11 +4,13 @@ author: "Yujing Fang, Chang Lian, Zhengdao Song"
 date: "July 1, 2016"
 output: html_document
 ---
+
+rm(list=ls(all=TRUE))
 Load libraries
 ```{r}
 library(dplyr)
-library(tm)
 library(plyr)
+library(DataCombine)
 ```
 
 Load raw data
@@ -25,7 +27,7 @@ rawdata <- rbind(rawdata_Chang.csv, rawdata_Yujing.csv, rawdata_zhengdao.csv)
 ```
 
 Clean Data
-* Remove records with NA 
++Remove records with NA 
 ```{r}
 # Replace N/A with NA before removing
 rawdata[rawdata == "N/A"] <- NA
@@ -37,7 +39,7 @@ rawdata[rawdata == ""] <- NA
 rawdata <- na.omit(rawdata)
 ```
 
-* Remove capitalization, leading/trailing space in all text columns
++Remove capitalization, leading/trailing space in all text columns
 ```{r}
 for (i in 1:ncol(rawdata)){
   rawdata[,i] <- tolower(rawdata[,i])
@@ -45,13 +47,13 @@ for (i in 1:ncol(rawdata)){
 }
 ```
 
-* Unify the way of coding 'gender'
++Unify the way of coding 'gender'
 ```{r}
 # Unify gender coding
 rawdata$gender <- revalue(rawdata$gender, c(w = "female", m = "male"))
 ```
 
-* Unify the naming of universities
++Unify the naming of universities
 ```{r}
 # Identify distinct names
 temp1 <- data.frame(rawdata$current_university)
@@ -63,11 +65,47 @@ colnames(temp3)<- "university"
 university <- rbind(temp1, temp2, temp3)
 university <- distinct(university)
 university[order(university),]
-
+#write.csv(university, "university2.csv", row.names = F)
 # Unify naming
-rawdata[rawdata == "N/A"] <- NA 
-gsub("univesity", "university", rawdata)
-gsub("brandels", "brandeis")
-agrep("brandeis", "brandeis university")
+Replaces <- data.frame(from = c("univesity","univeristy","brandels","cornell","mit","oberlin university","university,","universsity","purdue","uc berkeley","uc davis","uc irvine","uc san diego","uc san franciso","uc santa cruz","univeristy of california, san franciso","auto_noma","universitÃ© de montrÃ©al","universite de montreal","angelas","university of illinois-urban champaign","university of illinois, champaign-urbana","university of tennnessee-memphis","university of washington-seattle","ut austin","washington university","yale","harvard college", "university of illinois-champaign","university of wisconsin, madison","university university","university of california, berkeley","university of california, los angeles","university of california, san diego",'university of california, san francisco',"university of california, san franciso","university of california, santa cruz","university of colorado, boulder","university of minnesota-twin cities","university of texas southwestern medical center","university of wisconsin-madison","washington university","university of wisconsin"), 
+                       to = c("university","university","brandeis","cornell university","massachusetts institute of technology","oberlin college","university","university","purdue university","university of california-berkeley","university of california-davis","university of california-irvine","university of california-san diego","university of california-san francisco","university of california-santa cruz","university of california-san francisco","autonoma","university of montreal","university of montreal","angeles","university of illinois-urban champaign","university of illinois-champaign","university of tennessee","university of washington","university of texas","washington university","yale university","harvard university","university of illinois-urban champaign","university of wisconsin-madison","university","university of california-berkeley","university of california-los angeles","university of california-san diego",'university of california-san francisco',"university of california-san francisco","university of california-santa cruz","university of colorado","university of minnesota","university of texas","university of wisconsin","university of washington","university of wisconsin-madison"))
+
+rawdata <- FindReplace(data = rawdata, Var = "current_university", replaceData = Replaces,
+                     from = "from", to = "to", exact = FALSE)
+rawdata <- FindReplace(data = rawdata, Var = "phd_university", replaceData = Replaces,
+                     from = "from", to = "to", exact = FALSE)
+rawdata <- FindReplace(data = rawdata, Var = "bs_university", replaceData = Replaces,
+                     from = "from", to = "to", exact = FALSE)
+```
+
+Drop and create columns for analysis
+```{r}
+# Create num_peered_reviewed_articles by adding up the num_nature, num_cell, num_science 
+rawdata$num_articles <- as.numeric(rawdata$num_articles)
+rawdata$num_nature <- as.numeric(rawdata$num_nature)
+rawdata$num_cell <- as.numeric(rawdata$num_cell)
+rawdata$num_science <- as.numeric(rawdata$num_science)
+rawdata <- mutate(rawdata, num_peered_reviewed_articles = num_nature + num_cell + num_science)
+
+# Create current_age, phd_age
+undergrad_age <- 23 #assume the average age when people recieved their undergrad degrees is 23
+rawdata$year_get_bs <- as.numeric(rawdata$year_get_bs)
+rawdata$year_get_phd <- as.numeric(rawdata$year_get_phd)
+rawdata <- mutate(rawdata, current_age = 2016 - year_get_bs + undergrad_age, phd_age = year_get_phd - year_get_bs + 23)
+
+# Create current_univeristy_rank, current_university_tier
+ranking <- read.csv("data/schools_ranking.csv", stringsAsFactors = F)
+rawdata <- left_join(rawdata, ranking)
+
+# Drop department_program_name, link_of_his_webpage
+rawdata <- select(rawdata, -department_program_name, -link_of_his_webpage)
+
+# Rearrange columns order
+rawdata <- select(rawdata, 1, 2, 3, 14, 15, 4, 16, 17, 8,7,6,5, 9,13, everything())
+```
+
+Export result
+```{r}
+write.csv(rawdata, "result/reshaped_data.csv", row.names = F)
 ```
 

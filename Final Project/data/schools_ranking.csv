@@ -1,10 +1,10 @@
-University,US Rank,Tier
-Harvard,1,1
-MIT,1,1
-UC Berkeley,4,1
-Yale University,7,1
-University of Wisconsin-Madison,18,2
-University of Pennsylvania,19,2
-UC Davis,19,2
-Ohio State University,42,3
-Purdue University,55,3
+current_university,current_university_rank,current_university_tier
+harvard university,1,1
+massachusetts institute of technology,1,1
+university of california-berkeley,4,1
+yale university,7,1
+university of wisconsin-madison,18,2
+university of pennsylvania,19,2
+university of california-davis,19,2
+ohio state university,42,3
+purdue university,55,3

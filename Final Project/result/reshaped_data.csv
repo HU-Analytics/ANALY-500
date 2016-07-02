@@ -1,0 +1,187 @@
+"first_name","last_name","gender","current_age","phd_age","current_university","current_university_rank","current_university_tier","bs_university","phd_university","year_get_bs","year_get_phd","num_articles","num_peered_reviewed_articles","num_nature","num_cell","num_science"
+"james","thomson","male",58,30,"university of wisconsin-madison",18,2,"university of illinois-urban champaign","university of pennsylvania",1981,1988,277,14,9,3,2
+"paul","ahlquist","male",63,28,"university of wisconsin-madison",18,2,"iowa state university","university of wisconsin-madison",1976,1981,71,2,1,0,1
+"elaine","alarid","female",54,29,"university of wisconsin-madison",18,2,"university of california-berkeley","university of california-berkeley",1985,1991,26,0,0,0,0
+"anjon","audhya","male",42,28,"university of wisconsin-madison",18,2,"brown university","university of california-san diego",1997,2002,62,1,0,1,0
+"david","brow","male",60,30,"university of wisconsin-madison",18,2,"university of california-santa cruz","university of california-san diego",1979,1986,24,0,0,0,0
+"michaelã_","cox","male",65,28,"university of wisconsin-madison",18,2,"university of delaware","brandeis university",1974,1979,87,4,2,1,1
+"vincent","cryns","male",56,27,"university of wisconsin-madison",18,2,"harvard university","harvard university",1983,1987,44,0,0,0,0
+"dawn","davis","female",44,31,"university of wisconsin-madison",18,2,"university of wisconsin-madison","university of chicago",1995,2003,77,0,0,0,0
+"joseph","dillard","male",52,30,"university of wisconsin-madison",18,2,"georgia institute of technology","university of alabama-birmingham",1987,1994,35,0,0,0,0
+"timothy","donohue","male",64,28,"university of wisconsin-madison",18,2,"polytechnic institute of brooklyn","pennsylvania state university",1975,1980,65,1,0,0,1
+"feyza","engin","female",38,29,"university of wisconsin-madison",18,2,"baylor college of medicine","istanbul university",2001,2007,9,0,0,0,0
+"david","evans","male",47,28,"university of wisconsin-madison",18,2,"cornell university","university of wisconsin-madison",1992,1997,50,1,1,0,0
+"amy","fowler","female",40,29,"university of wisconsin-madison",18,2,"south dakota state university","university of wisconsin-madison",1999,2005,27,0,0,0,0
+"catherine","fox","female",47,27,"university of wisconsin-madison",18,2,"university of california-riverside","university of wisconsin-madison",1992,1996,23,0,0,0,0
+"audrey","gasch","female",45,29,"university of wisconsin-madison",18,2,"university of wisconsin-madison","stanford university",1994,2000,42,0,0,0,0
+"ying","ge","female",42,28,"university of wisconsin-madison",18,2,"peking university","cornell university",1997,2002,164,0,0,0,0
+"michaelã_","gould","male",70,31,"university of wisconsin-madison",18,2,"university of wisconsin-madison","university of wisconsin-madison",1969,1977,37,0,0,0,0
+"melissa","harrison","female",41,31,"university of wisconsin-madison",18,2,"harvard university","massachusetts institute of technology",1998,2006,18,1,0,0,1
+"christina","hull","female",47,31,"university of wisconsin-madison",18,2,"university of utah","university of california-san francisco",1992,2000,34,1,1,0,0
+"anna","huttenlocher","female",56,28,"university of wisconsin-madison",18,2,"oberlin college","harvard university",1983,1988,125,2,1,0,1
+"eric","johannsen","male",50,29,"university of wisconsin-madison",18,2,"purdue university","harvard university",1989,1995,6,0,0,0,0
+"jeffrey","johnson","male",55,31,"university of wisconsin-madison",18,2,"university of minnesota-duluth","university of wisconsin-madison",1984,1992,318,0,0,0,0
+"joan","jorgensen","female",51,36,"university of wisconsin-madison",18,2,"university of wisconsin-madison","case western reserve university",1988,2001,14,0,0,0,0
+"yoshihiro","kawaoka","male",61,28,"university of wisconsin-madison",18,2,"hokkaido university","hokkaido university",1978,1983,414,25,17,2,6
+"james","keck","male",47,28,"university of wisconsin-madison",18,2,"university of massachusetts","university of california-berkeley",1992,1997,57,2,1,1,0
+"shannon","kenney","female",64,27,"university of wisconsin-madison",18,2,"yale university","yale university",1975,1979,55,0,0,0,0
+"bruce","klein","male",65,27,"university of wisconsin-madison",18,2,"boston university","boston university",1974,1978,57,2,1,1,0
+"laura","knoll","female",50,28,"university of wisconsin-madison",18,2,"saint olaf college","university of washington",1989,1994,31,0,0,0,0
+"steven","brenner","male",47,28,"university of california-berkeley",4,1,"harvard university","university of cambridge",1992,1997,86,8,6,0,2
+"marla","feller","female",54,29,"university of california-berkeley",4,1,"university of california-berkeley","university of california-berkeley",1985,1991,61,4,3,0,1
+"daniel","fletcher","male",45,30,"university of california-berkeley",4,1,"princeton university","stanford university",1994,2001,77,6,2,2,2
+"ming","hammond","female",39,28,"university of california-berkeley",4,1,"california institute of technology","university of california-berkeley",2000,2005,27,2,0,1,1
+"nicholas","ingolia","male",39,29,"university of california-berkeley",4,1,"massachusetts institute of technology","harvard university",2000,2006,47,17,7,5,5
+"gary","karpen","male",61,32,"university of california-berkeley",4,1,"brandeis university","university of washington",1978,1987,49,11,4,4,3
+"nicole","king","female",47,30,"university of california-berkeley",4,1,"indiana university","harvard university",1992,1999,92,6,4,0,2
+"terry","machen","male",72,27,"university of california-berkeley",4,1,"university of california-santa barbara","university of california-los angeles",1967,1971,30,0,0,0,0
+"eva","nogales","female",51,28,"university of california-berkeley",4,1,"universidad autonoma de madrid","keele university",1988,1993,119,18,10,3,5
+"daniel","nomura","male",36,28,"university of california-berkeley",4,1,"university of california-berkeley","university of california-berkeley",2003,2008,67,2,0,1,1
+"michael","rape","male",40,26,"university of california-berkeley",4,1,"bayreuth university (germany)","max-planck-institute of biochemistry",1999,2002,52,10,4,6,0
+"david","savage","male",38,29,"university of california-berkeley",4,1,"gustatvus adolphus college","university of california-san francisco",2001,2007,18,2,1,0,1
+"randy","schekman","male",68,27,"university of california-berkeley",4,1,"university of california-los angeles","stanford university",1971,1975,106,13,2,6,5
+"astar","winto","male",58,28,"university of california-berkeley",4,1,"university of california-berkeley","california institute of technology",1981,1986,33,1,0,1,0
+"ahmet","yildiz","male",38,27,"university of california-berkeley",4,1,"bogazici university","university of illinois-urban champaign",2001,2005,88,7,0,3,4
+"pamela","kreeger","female",39,28,"university of wisconsin-madison",18,2,"valparaiso university","northwestern university",2000,2005,21,0,0,0,0
+"john","kuo","male",50,32,"university of wisconsin-madison",18,2,"harvard university","massachusetts institute of technology",1989,1998,56,1,1,0,0
+"robert","lipinski","male",37,29,"university of wisconsin-madison",18,2,"university of wisconsin-madison","university of wisconsin-madison",2002,2008,20,0,0,0,0
+"daniel","loeb","male",58,30,"university of wisconsin-madison",18,2,"pennsylvania state university","university of north carolina-chapel hill",1981,1988,28,0,0,0,0
+"paul","marker","male",48,30,"university of wisconsin-madison",18,2,"grinnell college","stanford university",1991,1998,25,0,0,0,0
+"douglas","mcneel","male",53,29,"university of wisconsin-madison",18,2,"whitman college","university of chicago",1986,1992,70,0,0,0,0
+"andrew","mehle","male",41,29,"university of wisconsin-madison",18,2,"villanova university","harvard university",1998,2004,23,0,0,0,0
+"janet","mertz","female",69,28,"university of wisconsin-madison",18,2,"massachusetts institute of technology","stanford university",1970,1975,91,2,0,2,0
+"alan","rapraeger","male",67,29,"university of wisconsin-madison",18,2,"university of oregon","university of california-berkeley",1972,1978,28,0,0,0,0
+"linda","schuler","female",65,29,"university of wisconsin-madison",18,2,"university of wisconsin-madison","university of pennsylvania",1974,1980,35,0,0,0,0
+"vijayasaradhi","setaluri","male",63,32,"university of wisconsin-madison",18,2,"sri venkateswara university","center for cellular and molecular biology & osmania university",1976,1985,42,0,0,0,0
+"michael","sheets","male",57,30,"university of wisconsin-madison",18,2,"purdue university","university of wisconsin-madison",1982,1989,36,1,1,0,0
+"nathan","sherer","male",42,32,"university of wisconsin-madison",18,2,"grinnell college","yale university",1997,2006,23,0,0,0,0
+"lloyd","smith","male",63,28,"university of wisconsin-madison",18,2,"university of california-berkeley","stanford university",1976,1981,104,2,2,0,0
+"chad","vezina","male",41,28,"university of wisconsin-madison",18,2,"saint olaf college","university at buffalo",1998,2003,49,0,0,0,0
+"karen","wassarman","female",54,30,"university of wisconsin-madison",18,2,"william college","yale university",1985,1992,24,2,0,1,1
+"jyoti","watters","female",49,30,"university of wisconsin-madison",18,2,"university of arizona-tucson","university of washington",1990,1997,37,0,0,0,0
+"marc","wolman","male",37,28,"university of wisconsin-madison",18,2,"university of wisconsin-madison","university of wisconsin-madison",2002,2007,17,0,0,0,0
+"ana","alonso","female",41,28,"ohio state university",42,3,"universite victor segalen (france)","universite victor segalen (france)",1998,2003,13,0,0,0,0
+"irina","artsimovitch","female",49,29,"ohio state university",42,3,"moscow state university","university of tennessee",1990,1996,71,7,3,3,1
+"christopher","bartlett","male",41,28,"ohio state university",42,3,"wright state university","rutgers university",1998,2003,65,0,0,0,0
+"don","benson","male",47,30,"ohio state university",42,3,"wheeling jesuit college","kent state university",1992,1999,71,0,0,0,0
+"ross","dalbey","male",61,28,"ohio state university",42,3,"university of washington","washington state university",1978,1983,53,0,0,0,0
+"richard","fishel","male",63,27,"ohio state university",42,3,"university of california-irvine","university of california",1976,1980,75,0,0,0,0
+"ramiro","gazon","male",51,29,"ohio state university",42,3,"national school ""jose figueroa alcorta""","national university of cordoba",1988,1994,72,1,0,1,0
+"eric","grotewold","male",54,26,"ohio state university",42,3,"university of buenos aires","ifibyne",1985,1988,92,1,1,0,0
+"anita","hopper","female",72,28,"ohio state university",42,3,"university of illinois-chicago","university of illinois-urban champaign",1967,1972,39,1,0,1,0
+"tina","henkin","female",62,30,"ohio state university",42,3,"swarthmore college","university of wisconsin-madison",1977,1984,54,0,0,0,0
+"howard","berg","male",83,31,"harvard university",1,1,"california institute of technology","harvard university",1956,1964,170,29,20,5,4
+"daniel","branton","male",85,30,"harvard university",1,1,"cornell university","university of california-berkeley",1954,1961,156,21,9,4,8
+"cox","david","male",39,30,"harvard university",1,1,"harvard university","massachusetts institute of technology",2000,2007,72,0,0,0,0
+"eddy","sean","male",53,28,"harvard university",1,1,"california institute of technology","university of colorado",1986,1991,105,11,6,1,4
+"extavour","cassandra","female",44,28,"harvard university",1,1,"university of toronto","universidad autonoma de madrid",1995,2000,43,0,0,0,0
+"gaudet","rachelle","female",46,28,"harvard university",1,1,"university of montreal","yale university",1993,1998,91,5,2,2,1
+"kahne","daniel","male",58,30,"harvard university",1,1,"cornell university","columbia university",1981,1988,119,11,0,3,8
+"kleckner","nancy","female",71,28,"harvard university",1,1,"harvard university","massachusetts institute of technology",1968,1973,198,47,2,45,0
+"kunes","sam","male",58,30,"harvard university",1,1,"university of oregon","massachusetts institute of technology",1981,1988,30,5,0,5,0
+"lichtman","jeff","male",66,30,"harvard university",1,1,"bowdoin","university of washington",1973,1980,149,22,9,4,9
+"lue","robert","male",59,31,"harvard university",1,1,"st. george's college, kingston, jamaica","harvard university",1980,1988,4,0,0,0,0
+"mango","susan","female",56,30,"harvard university",1,1,"harvard university","princeton university",1983,1990,43,7,0,1,6
+"meselson","matthew","male",88,29,"harvard university",1,1,"university of chicago","california institute of technology",1951,1957,99,17,4,4,9
+"murray","andrew","male",65,30,"harvard university",1,1,"cambridge university","harvard university",1974,1981,306,49,22,9,18
+"nelson","david","male",67,26,"harvard university",1,1,"cornell university","cornell university",1972,1975,698,15,5,0,10
+"o'shea","erin","female",51,27,"harvard university",1,1,"smassachusetts institute of technologyh college","massachusetts institute of technology",1988,1992,83,26,6,3,17
+"ramanathan","sharad","male",47,31,"harvard university",1,1,"indian institute of technology","harvard university",1992,2000,17,4,1,2,1
+"sanes","joshua","male",69,29,"harvard university",1,1,"yale university","harvard university",1970,1976,319,46,23,15,8
+"amon","angelika","female",51,28,"massachusetts institute of technology",1,1,"university of vienna","university of vienna",1988,1993,156,24,5,11,8
+"baker","tania","female",56,28,"massachusetts institute of technology",1,1,"university of wisconsin-madison","stanford university",1983,1988,129,12,2,8,2
+"bartel","david","male",57,34,"massachusetts institute of technology",1,1,"goshen college","harvard university",1982,1993,149,44,17,16,11
+"burge","chris","male",49,30,"massachusetts institute of technology",1,1,"stanford university","stanford university",1990,1997,103,20,4,11,5
+"drennan","catherine","female",54,33,"massachusetts institute of technology",1,1,"vassar college","university of michigan",1985,1995,124,11,5,0,6
+"grossman","alan","male",60,28,"massachusetts institute of technology",1,1,"brown university","university of wisconsin-madison",1979,1984,139,12,1,10,1
+"guarente","leonard","male",65,27,"massachusetts institute of technology",1,1,"massachusetts institute of technology","harvard university",1974,1978,271,65,15,39,11
+"horvitz","robert","male",69,27,"massachusetts institute of technology",1,1,"harvard university","harvard university",1970,1974,255,62,26,27,9
+"houseman","david","male",73,28,"massachusetts institute of technology",1,1,"brandeis university","brandeis university",1966,1971,212,20,9,5,6
+"imperiali","barbara","female",60,27,"massachusetts institute of technology",1,1,"university college london","massachusetts institute of technology",1979,1983,154,1,0,0,1
+"jacks","tyler","male",56,28,"massachusetts institute of technology",1,1,"harvard university","university of california-san francisco",1983,1988,352,57,24,25,8
+"jaenisch","rudolf","male",76,27,"massachusetts institute of technology",1,1,"university of munich","university of munich",1963,1967,539,117,48,48,21
+"keating","amy","female",47,29,"massachusetts institute of technology",1,1,"harvard university","university of california-los angeles",1992,1998,60,3,0,0,3
+"king","jonathan","male",77,29,"massachusetts institute of technology",1,1,"yale university","california institute of technology",1962,1968,479,6,1,0,5
+"krieger","monty","male",68,27,"massachusetts institute of technology",1,1,"tulane university","california institute of technology",1971,1975,272,14,6,2,6
+"lander","eric","male",61,26,"massachusetts institute of technology",1,1,"princeton university","oxford university",1978,1981,449,152,74,36,42
+"lindquist","susan","female",68,28,"massachusetts institute of technology",1,1,"university of illinois-urban champaign","harvard university",1971,1976,386,63,13,25,25
+"abel","edwin","male",56,33,"university of pennsylvania",19,2,"swarthmore college","harvard university",1983,1993,171,5,2,0,3
+"alwine","james","male",70,28,"university of pennsylvania",19,2,"elizabethtown college","pennsylvania state university",1969,1974,60,0,0,0,0
+"argon","yair","male",65,29,"university of pennsylvania",19,2,"the hebrew university medical school","harvard medical school",1974,1980,71,1,1,0,0
+"bashaw","greg","male",49,30,"university of pennsylvania",19,2,"brown university","stanford university",1990,1997,37,5,1,3,1
+"burkhardt","janis","female",56,29,"university of pennsylvania",19,2,"university of washington","duke university",1983,1989,150,2,1,0,1
+"murphy","maureen","female",52,29,"university of pennsylvania",19,2,"rutgers university","university of pennsylvania",1987,1993,270,5,1,0,4
+"ostap","michael","male",51,28,"university of pennsylvania",19,2,"illinois state university","university of minnesota",1988,1993,65,1,0,0,1
+"daniell","henry","male",70,34,"university of pennsylvania",19,2,"university of madras","madurai kamaraj university",1969,1980,240,0,0,0,0
+"dominguez","roberto","male",52,32,"university of pennsylvania",19,2,"odessa state university","pasteur institute and paris-sud university",1987,1996,68,4,1,0,3
+"fraser","nigel","male",71,30,"university of pennsylvania",19,2,"robert gordon's institute of technology","university of glasgow",1968,1975,150,4,4,0,0
+"george","donna","female",70,28,"university of pennsylvania",19,2,"wilkes college","rutgers university",1969,1974,34,0,0,0,0
+"weiss","susan","female",68,27,"university of pennsylvania",19,2,"brandeis university","harvard university",1971,1975,149,2,0,0,2
+"kashina","anna","female",53,30,"university of pennsylvania",19,2,"moscow state university","moscow institute for protein research",1986,1993,31,2,0,0,2
+"wherry","john","male",46,30,"university of pennsylvania",19,2,"pennsylvania state university","thomas jefferson university",1993,2000,161,13,5,3,5
+"janmey","paul","male",63,29,"university of pennsylvania",19,2,"oberlin college","university of wisconsin-madison",1976,1982,284,12,6,3,3
+"roos","david","male",60,28,"university of pennsylvania",19,2,"harvard university","rockefeller university",1979,1984,188,11,6,0,5
+"robertson","erle","male",52,28,"university of pennsylvania",19,2,"howard university","wayne state university",1987,1992,151,0,0,0,0
+"jawdat","al-bassam","male",41,29,"university of california-davis",19,2,"california state university long beach","scripps research institute",1998,2004,18,1,0,1,0
+"john","albeck","male",39,30,"university of california-davis",19,2,"cornell university","massachusetts institute of technology",2000,2007,21,6,1,3,2
+"f. javier","arsuaga","male",46,30,"university of california-davis",19,2,"universidad de zaragoza","florida state university",1993,2000,13,1,1,0,0
+"enoch","baldwin","male",57,30,"university of california-davis",19,2,"state university of new york, purchase","university of california-berkeley",1982,1989,20,0,0,0,0
+"sean","burgess","female",52,29,"university of california-davis",19,2,"university of colorado","university of california-san francisco",1987,1993,25,0,0,0,0
+"kenneth","burtis","male",63,32,"university of california-davis",19,2,"university of california-davis","stanford university",1976,1985,4,1,0,0,1
+"judy","callis","female",62,33,"university of california-davis",19,2,"university of washington","stanford university",1977,1987,35,1,1,0,0
+"marina","crowder","female",32,28,"university of california-davis",19,2,"university of california-davis","university of california-davis",2007,2012,3,1,1,0,0
+"bruce","draper","male",51,30,"university of california-davis",19,2,"university of california-san diego","university of washington",1988,1995,23,1,0,1,0
+"joanne","engebrecht","female",58,28,"university of california-davis",19,2,"university of washington","scripps institution of oceanography",1981,1986,22,0,0,0,0
+"andrew","fisher","male",52,28,"university of california-davis",19,2,"purdue university","purdue university",1987,1992,64,2,2,0,0
+"christopher","fraser","male",44,27,"university of california-davis",19,2,"university of usssex","university of sussex",1995,1999,71,3,1,0,2
+"charles","s. gasser","male",61,30,"university of california-davis",19,2,"university of california-davis","stanford university",1978,1985,21,0,0,0,0
+"celina","juliano","female",42,36,"university of california-davis",19,2,"brown university","university of miami",1997,2010,18,2,0,0,2
+"ken","kaplan","male",53,31,"university of california-davis",19,2,"haverford college","university of california-san francisco",1986,1994,18,1,0,0,1
+"ian","korf","male",50,30,"university of california-davis",19,2,"indiana university","cornell university",1989,1996,45,2,1,0,1
+"j. clark","lagarias","male",64,27,"university of california-davis",19,2,"university of california-berkeley","university of california-berkeley",1975,1979,64,1,0,0,1
+"walter","leal","male",57,31,"university of california-davis",19,2,"universidade federal de pernambuco","tsukuba university",1982,1990,89,1,0,0,1
+"richard","j. mckenney","male",37,31,"university of california-davis",19,2,"xavier university","columbia university",2002,2010,12,2,0,1,1
+"francis","j mc nally","male",55,29,"university of california-davis",19,2,"princeton university","university of california-berkeley",1984,1990,23,1,0,1,0
+"richard","michelmore","male",63,26,"university of california-davis",19,2,"university of cambridge","university of cambridge",1976,1979,87,0,0,0,0
+"mona","monfared","female",41,34,"university of california-davis",19,2,"university of california-santa cruz","university of california-davis",1998,2009,8,0,0,0,0
+"bruce","m applegate","male",52,33,"purdue university",55,3,"university of tennessee","university of tennessee",1987,1997,10,0,0,0,0
+"edward","bartlett","male",47,30,"purdue university",55,3,"haverford college","university of wisconsin-madison",1992,1999,30,0,0,0,0
+"ximena","bernal","female",41,32,"purdue university",55,3,"universidad de los andes","university of texas",1998,2007,14,0,0,0,0
+"sarah","calve","female",39,29,"purdue university",55,3,"university of michigan","cornell university",2000,2006,17,0,0,0,0
+"ignacio","camarillo","male",47,27,"purdue university",55,3,"st. mary's college","wayne state university",1992,1996,7,0,0,0,0
+"nicholas","c. carpita","male",67,28,"purdue university",55,3,"purdue university","colorado state university",1972,1977,44,2,1,0,1
+"henry","c. chang","male",48,27,"purdue university",55,3,"harvard university","university of california-berkeley",1991,1995,15,0,0,0,0
+"alexander","chubykin","male",41,31,"purdue university",55,3,"moscow institute of physics and technolog","university of texas",1998,2006,9,0,0,0,0
+"qing","deng","female",36,29,"purdue university",55,3,"fudan university","medical college of wisconsin",2003,2009,75,1,1,0,0
+"david","eichinger","male",61,37,"purdue university",55,3,"colgate university","michigan state university",1978,1992,4,1,1,0,0
+"esteban","fernandez- juricic","male",44,29,"purdue university",55,3,"university of cordoba","university of oxford",1995,2001,32,2,2,0,0
+"alan","m. friedman","male",58,31,"purdue university",55,3,"yale university","harvard university",1981,1989,20,0,0,0,0
+"stanton","bruce gelvin","male",69,30,"purdue university",55,3,"columbia university","university of california-san diego",1970,1977,47,1,1,0,0
+"barbara","l. golden","female",50,27,"purdue university",55,3,"university of chicago","duke university",1989,1993,25,1,1,0,0
+"michael","gribskov","male",60,29,"purdue university",55,3,"oregon state university","university of wisconsin-madison",1979,1985,39,2,0,0,2
+"siddika","guzey","female",36,30,"purdue university",55,3,"hacettepe university","university of minnesota",2003,2010,0,0,0,0,0
+"laurie","e. iten","female",68,27,"purdue university",55,3,"university of california-irvine","university of california-irvine",1971,1975,0,0,0,0,0
+"wen","jiang","male",47,32,"purdue university",55,3,"peking university","baylor college of medicine",1992,2001,10,0,0,0,0
+"daisuke","kihara","male",45,28,"purdue university",55,3,"kyoto university","the university of tokyo",1994,1999,91,2,0,0,2
+"murat","acar","male",39,30,"yale university",7,1,"bogazici university","massachusetts institute of technology",2000,2007,54,2,1,0,1
+"sidney","altman","male",79,30,"yale university",7,1,"massachusetts institute of technology","university of colorado",1960,1967,47,5,2,0,3
+"robert","bazell","male",72,25,"yale university",7,1,"university of california-berkeley","university of california-berkeley",1967,1969,4,0,0,0,0
+"ronald","breaker","male",52,28,"yale university",7,1,"university of wisconsin-madison-stevens point","purdue university",1987,1992,118,13,6,2,5
+"john","carlson","male",48,29,"yale university",7,1,"university of minnesota","university of wisconsin-madison",1991,1997,238,9,4,4,1
+"sreeganga","s chandra","female",50,31,"yale university",7,1,"st. joseph's college","purdue university",1989,1997,6,0,0,0,0
+"damon","a clark","male",38,29,"yale university",7,1,"princeton university","harvard university",2001,2007,25,1,1,0,0
+"nicole","kho clay","female",43,32,"yale university",7,1,"massachusetts institute of technology","yale university",1996,2005,1,0,0,0,0
+"lynn","cooley","female",63,31,"yale university",7,1,"connecticut college","university of texas",1976,1984,30,1,0,0,1
+"craig","martin crews","male",53,30,"yale university",7,1,"harvard university","university of virgina",1986,1993,1,0,0,0,0
+"stephen","dellaporta","male",63,28,"yale university",7,1,"university of rhode island","worcester p. institute",1976,1981,29,2,1,0,1
+"nadya","dimitrova","female",37,30,"yale university",7,1,"brown university","the rockefeller university",2002,2009,17,2,1,1,0
+"jo","handelsman","female",60,28,"yale university",7,1,"cornell university","university of wisconsin-madison",1979,1984,114,10,2,0,8
+"valerie","horsley","female",41,28,"yale university",7,1,"furman university","emory university",1998,2003,42,5,0,5,0
+"vivian","irish","female",59,29,"yale university",7,1,"wesleyan university","harvard university",1980,1986,37,0,0,0,0
+"yannick","jacob","male",38,30,"yale university",7,1,"universit̩ de montr̩al","indiana university",2001,2008,15,3,1,0,2
+"christine","jacobs-wagner","female",48,28,"yale university",7,1,"university of liege","university of liege",1991,1996,51,8,2,6,0
+"haig","keshishian","female",64,30,"yale university",7,1,"earlham","university of california-berkeley",1975,1982,28,0,0,0,0
+"anna","marie pyle","female",54,28,"yale university",7,1,"princeton university","columbia university",1985,1990,98,9,4,3,2
+"matthew","rodeheffer","male",42,28,"yale university",7,1,"university of washington","emory university",1997,2002,24,2,0,2,0
+"joel","rosenbaum","male",84,31,"yale university",7,1,"syracuse university","syracuse university",1955,1963,53,1,0,0,1
+"alanna","schepartz","female",57,28,"yale university",7,1,"state university of new york-albany","columbia university",1982,1987,74,0,0,0,0
