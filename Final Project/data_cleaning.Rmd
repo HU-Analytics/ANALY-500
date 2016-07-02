@@ -7,8 +7,9 @@ output: html_document
 Load libraries
 ```{r}
 library(dplyr)
+library(tm)
+library(plyr)
 ```
-
 
 Load raw data
 ```{r}
@@ -21,5 +22,52 @@ for (i in 1:length(files)){
 
 # Merge all raw data
 rawdata <- rbind(rawdata_Chang.csv, rawdata_Yujing.csv, rawdata_zhengdao.csv)
+```
+
+Clean Data
+* Remove records with NA 
+```{r}
+# Replace N/A with NA before removing
+rawdata[rawdata == "N/A"] <- NA
+
+# Replace blank with NA before removing
+rawdata[rawdata == ""] <- NA
+
+# Remove all records with NA in any field
+rawdata <- na.omit(rawdata)
+```
+
+* Remove capitalization, leading/trailing space in all text columns
+```{r}
+for (i in 1:ncol(rawdata)){
+  rawdata[,i] <- tolower(rawdata[,i])
+  rawdata[,i] <- trimws(rawdata[,i])
+}
+```
+
+* Unify the way of coding 'gender'
+```{r}
+# Unify gender coding
+rawdata$gender <- revalue(rawdata$gender, c(w = "female", m = "male"))
+```
+
+* Unify the naming of universities
+```{r}
+# Identify distinct names
+temp1 <- data.frame(rawdata$current_university)
+temp2 <- data.frame(rawdata$phd_university)
+temp3 <- data.frame(rawdata$bs_university)
+colnames(temp1) <-"university"
+colnames(temp2) <- "university"
+colnames(temp3)<- "university"
+university <- rbind(temp1, temp2, temp3)
+university <- distinct(university)
+university[order(university),]
+
+# Unify naming
+rawdata[rawdata == "N/A"] <- NA 
+gsub("univesity", "university", rawdata)
+gsub("brandels", "brandeis")
+agrep("brandeis", "brandeis university")
 ```
 
